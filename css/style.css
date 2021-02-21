@@ -3,12 +3,9 @@
     box-sizing: border-box;
   }
 
-  body{
-    background-color: rgb(241, 158, 197);
-  }
   
   header {
-    background-color: rgb(156, 34, 126);
+    background-color: #3a3a3a;
     padding: 15px;
     width: 100%;
     height: 100px;
@@ -33,12 +30,12 @@
 
   header nav ul li a{
       text-decoration: none;
-      color: rgb(241, 158, 197);
+      color:#aaa;
   }
 
   main{
     padding: 20px;
-    background-color: rgb(241, 158, 197);
+    
   }
 
   #hero{
@@ -81,23 +78,27 @@
     margin-top: 0px;
   }
 
+  #third p{
+    height: 300px;
+  }
+
   #third h1{
     margin: 20px;
     font-size: large;
   }
 
-  #third p{
-    color: rgb(156, 34, 126);
-  }
+ #scrol{
+   overflow: scroll;
+ }
 
   button{
-    background-color: navy;
-    color: rgb(241, 158, 197);
+    background-color:black;
+    color: #aaa;
   }
 
   footer {
     clear: both;
-    background-color: rgb(156, 34, 126);
+    background-color: #333333;
     padding: 60px;
     bottom: 0;
     width: 100%;
